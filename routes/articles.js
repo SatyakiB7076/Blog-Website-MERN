@@ -12,6 +12,7 @@ router.get('/new',(req,res)=>{
 router.get("/:id",(req,res)=>{
 
 })
+//post request send when new article is saved
 router.post('/', async(req,res)=>{
     const article=new Article({
         title:req.body.title,
